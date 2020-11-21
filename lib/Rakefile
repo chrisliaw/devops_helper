@@ -1,0 +1,5 @@
+
+require "devops_helper"
+
+path = File.expand_path(File.dirname(__FILE__))
+Dir.glob("#{path}/devops_helper/tasks/**/*.rake").each { |f| import f }

@@ -6,3 +6,7 @@
 /pkg/
 /spec/reports/
 /tmp/
+toolrack.log
+Gemfile.lock
+git_cli.log
+devops_helper.log
